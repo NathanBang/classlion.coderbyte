@@ -1,10 +1,13 @@
 def SimpleAdding(num)
-  
-  while num>0
- 	sum+=SimpleAdding(num-1)    
+
+  sum=0
+  for i in 1..num
+    sum+=i
+    i+1
   end
-  num = sum
-  return num
+  num=sum# code goes here
+  return num 
+         
 end
    
 # keep this function call here 
